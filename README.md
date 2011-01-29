@@ -1,5 +1,4 @@
-bookmarklet to download assets from any page.
-
+AssetCollecto bookmarklet is made to download assets from any webpage.
 
 TODO :
 
@@ -12,3 +11,10 @@ Status:
 * 2 clicks on chrome
   * make it smoother.
   * maybe with more API as it is an extension ?
+  * maybe do a zip in a data: url
+
+Ideas:
+
+* make a generator of bookmarklet
+  * all in browser
+  * with jQuerify or not
