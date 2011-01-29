@@ -20,7 +20,6 @@ jQuery.each(assetExts, function(i, assetExt){
 	});	
 });
 
-
 var assetDownloadIframe	= function(contentUrl){
 	// firefox: success
 	// chrome: faile: this one trigger a popup... impossible to say "yes" always 
@@ -59,7 +58,7 @@ var forceDownload	= function(contentUrl){
 	var callUrl	= "http://localhost:8080"
 				+ "?url="	+ contentUrl;
 	console.log("forceDownload", callUrl)
-	if( jQuery.browser.mozilla ){	// good for firefox
+	if( jQuery.browser.mozilla ){
 		assetDownloadIframe(callUrl)
 	}else if( jQuery.browser.webkit ){
 		assetDownloadWindowOpen(callUrl)
