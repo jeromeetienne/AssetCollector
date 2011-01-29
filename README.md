@@ -21,3 +21,9 @@ Ideas:
 * make a generator of bookmarklet
   * all in browser
   * with jQuerify or not
+* instead of having a proxy server and a download inclient, what about a download server ?
+  * a running server will receive assets urls, download them in a specific folder
+  * this option provide a lot more imformation to the downloader.
+  * assume the server is running on the local box
+  * it would remove all the automatice download in browser issue
+  
