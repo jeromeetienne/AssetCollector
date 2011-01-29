@@ -28,4 +28,4 @@ Ideas:
   * it would remove all the automatice download in browser issue
 * put the proxy on google application engine and thus remove the server need ?
   * would be nice... but i dunno how to do it in gae :)
-  
+* make a .deb for phantomJs ?
