@@ -73,9 +73,15 @@ jQuery.each(assetUrls, function(i, assetUrl){
 	forceDownload(assetUrl);
 });
 
+// determine if the user should be notified
+var shouldNotify	= true;
+if( jQuery.browser.webkit )	shouldNotify	= false
+
 // notify the users
 // - TODO make it nicer looking. and non modal. maybe a notification
-//alert("Downloaded "+assetUrls.length+" assets")
+if( shouldNotify ){
+	alert("Downloaded "+assetUrls.length+" assets")
+}
 
 
 //////////////////////////////////////////////////////////////////////////////////
