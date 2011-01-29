@@ -7,5 +7,5 @@
 	
 	JsLoad('https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js');
 
-	JsLoad('http://localhost/~jerome/webwork/assetCollector/public/js/main.js');
+	JsLoad('http://localhost/~jerome/webwork/AssetCollector/public/js/main.js');
 })();
